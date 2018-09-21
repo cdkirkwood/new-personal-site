@@ -1,0 +1,20 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-image: 
+    /* linear-gradient(rgb(72, 61, 139, 0.28), rgb(72, 61, 139, 0.28)), */
+    url("./assests/background1.jpg");
+}
+
+.relative {
+  position: relative;
+  color: rgb(143, 188, 143);
+  font: 72, 61, 139
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

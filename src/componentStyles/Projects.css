@@ -1,0 +1,81 @@
+.sidebar-container {
+  margin-top: 5vh;
+  width: 15vw;
+  height: 20vh;
+  position: fixed;
+  z-index: 1;
+  top: 10vh;
+  background: black;
+  color: white;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.single-project-container {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20vw;
+  margin-right: 10vw;
+  padding-top: 12vh
+}
+
+.title-pic {
+  display: flex;
+  flex-direction: column;
+}
+
+#main-pic {
+  width: 475px;
+  height: 450px;
+}
+
+.project-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 70vh;
+  align-items: center;
+  padding: 12vh 0 0 8vw;
+}
+
+.white {
+  color: white
+}
+
+#deploy {
+  height: 8vh;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltiptext {
+  visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+
+    /* Position the tooltip text */
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+
+    /* Fade in tooltip */
+    opacity: 0;
+    transition: opacity 0.3s;
+  
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}

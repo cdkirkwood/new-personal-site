@@ -1,0 +1,28 @@
+.selected {
+  font-weight: bold
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  height: 10vh;
+  background-color: black;
+  align-items: center;
+  position: fixed;
+  width: 100vw;
+  padding-left: 1vw; 
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 25vw;
+}
+
+.link {
+  color: white;
+}
+
+#name {
+  color: white
+}

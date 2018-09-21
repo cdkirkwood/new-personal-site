@@ -1,0 +1,23 @@
+.home-conatiner {
+  padding-top: 12vh
+}
+
+.linksContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2vh 20vw;
+}
+
+#picture {
+  border-radius: 30%;
+}
+
+.picture-speech {
+  display: flex;
+  justify-content: center;
+}
+
+#job-title {
+  color: white
+}
