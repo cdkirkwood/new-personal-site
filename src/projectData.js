@@ -45,6 +45,24 @@ const asyncHandler = new ProjectData(
   'Promises'
 )
 
-const data = [coolStuff, kingdom, superMarket, asyncHandler]
+const csv = new ProjectData(
+  'csv-converter',
+  'CSV Converter',
+  'https://github.com/cdkirkwood/csv-converter',
+  'Converts CSV files into an interactive table that sorts and filters data',
+  'Sole Developer',
+  'React, fs, Papa Parse'
+)
+
+const calendar = new ProjectData(
+  'calendar',
+  'Calendar App',
+  'https://github.com/cdkirkwood/calendar-app',
+  'Simple calendar app for creating, editing, and removing events',
+  'Sole Developer',
+  'React, Redux, Node, Express, Sequelize, MomentJS'
+)
+
+const data = [coolStuff, kingdom, superMarket, asyncHandler, csv, calendar]
 
 export default data
