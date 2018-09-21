@@ -12,7 +12,7 @@ const Links = props => (
     <a href="https://www.linkedin.com/in/connor-kirkwood/">
       <img src={linkedIn} alt="linkedIn" />
     </a>
-    <a>
+    <a href="mailto:cdkirkwood@gmail.com">
       <img src={gmail} alt="gmail" />
     </a>
   </div>
