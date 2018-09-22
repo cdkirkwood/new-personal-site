@@ -9,7 +9,7 @@ const ProjectDetails = props => {
         <p>{role}</p>
         <p>{tech}</p>
         <a href={deployed} data-tip data-for={'dataToolTip1'}>
-          <img src={deploy} id="deploy" />
+          <img src={deploy} id="deploy" alt="deployed-link"/>
           <ToolTip/>
         </a>
       </div>

@@ -63,6 +63,15 @@ const calendar = new ProjectData(
   'React, Redux, Node, Express, Sequelize, MomentJS'
 )
 
-const data = [coolStuff, kingdom, superMarket, asyncHandler, csv, calendar]
+const techMeetup = new ProjectData(
+  'tech-meetup-calendar',
+  'Tech Meetup Calendar',
+  'https://github.com/cdkirkwood/tech-meetup-calendar',
+  'Uses Eventbrite API and Google Calendar API to auto-populate calendar with tech events.',
+  'Sole Developer',
+  'Javascript, Google Calendar API, Eventbrite Api'
+)
+
+const data = [coolStuff, kingdom, superMarket, asyncHandler, csv, calendar, techMeetup]
 
 export default data

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Switch, Route } from 'react-router-dom'
-import { Home, Projects, SingleProject, About } from './components'
+import { Home, Projects, About } from './components'
 
 const Routes = () => (
   <Switch>
