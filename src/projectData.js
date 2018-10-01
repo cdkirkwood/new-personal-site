@@ -13,7 +13,7 @@ const coolStuff = new ProjectData(
   'bunch-cool-stuff',
   'Bunch of Cool Stuff',
   'https://bunch-of-cool-stuff.herokuapp.com/',
-  'e-commerce site for a Williamsburg-based clothing brand',
+  'E-commerce site for a Williamsburg-based clothing brand',
   'Sole Developer',
   'React, Redux, Node, Express, PostgresSQL, Stripe'
 )
@@ -31,7 +31,7 @@ const superMarket = new ProjectData(
   'super-market',
   'SUPERmarket',
   'http://sup3r-market.herokuapp.com/',
-  'e-commerce site for buying superpowers',
+  'E-commerce site for buying superpowers',
   'Developer',
   'React, Redux, Node, Express, PostgresSQL, Node Mailer'
 )
